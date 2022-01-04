@@ -248,10 +248,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallbackInfo:
     fallbackInfo:
-      prototype: {fileID: 11400000, guid: 6ace1832ed318f440a3bad6b73fe74e1, type: 2}
+      prototype: {fileID: 0}
       modifiedProperties: []
       defaults:
-        x: 101
+        intValue: 0
+        position: {x: 0, y: 0, z: 0}
+        assetReference: {fileID: 0}
 --- !u!4 &940230917
 Transform:
   m_ObjectHideFlags: 0

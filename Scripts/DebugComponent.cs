@@ -5,6 +5,6 @@ public class DebugComponent : ComponentInfoBase<DebugComponentInfo>
 {
 	private void Update()
 	{
-		Debug.Log(Info.X);
+		Debug.Log(Info.IntValue);
 	}
 }

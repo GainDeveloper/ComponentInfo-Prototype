@@ -183,7 +183,7 @@ namespace CoreEditor.Utilities.ComponentInfo
 
 			if (Application.isPlaying || isExcessive)
 			{
-				Debug.Log(stopwatch.ElapsedMilliseconds);
+				Debug.Log("Rebuilding ComponentInfoHierarchy took " + stopwatch.ElapsedMilliseconds + "ms");
 			}
 #endif
 		}
