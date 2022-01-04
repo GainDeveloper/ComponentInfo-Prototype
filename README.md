@@ -1,0 +1,2 @@
+# ComponentInfo Prototype
+ 
