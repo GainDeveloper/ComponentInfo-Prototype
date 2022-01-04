@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 [CreateAssetMenu(fileName = "DebugComponentInfo", menuName = "Core/DebugComponentInfo")]
 public class DebugComponentInfoAsset : ComponentInfoAsset<DebugComponentInfo>
 {
-
 }
 
 [System.Serializable]

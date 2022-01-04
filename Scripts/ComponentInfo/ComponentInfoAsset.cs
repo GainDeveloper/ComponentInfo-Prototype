@@ -10,6 +10,8 @@ namespace Core.Utilities.ComponentInfo
 		[SerializeField] private ComponentInfoPrototype<T> prototype;
 		public override ComponentInfoPrototype Prototype => prototype;
 
+		public T Info => prototype.Info;
+
 #if UNITY_EDITOR
 		private SerializedProperty _prototypeProperty;
 #endif
